@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>loginpage</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            background-image: url(file:///C:/Users/ambik/Downloads/abstract-navy-red-background-design-sr17012401-1705501852665-cover.webp);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+        
+
+        
+        .main{
+            background-color: rgb(92, 248, 190);
+            border-radius:17px;
+            box-shadow: 0 0 20px  rgba(0, 0, 0, 0,2);
+             padding: 10px 20px;
+             
+            transition: transform 0.2s;
+            width: 300px;
+            text-align: center;
+            
+        }
+        label{
+            display: block;
+            justify-content: left;
+            text-align: left;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            color: rgb(8, 10, 9);
+        }
+        input{
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        button{
+            width: 100px;
+            border: 1px solid black;
+        } 
+        
+        button:hover{
+            background-color: rgba(230, 124, 124, 0.768);   
+               
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Login</h1>
+        <form action="/action_page.php" method="post">
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" fname="username" 
+            placeholder="Enter your name" required><br><br>
+            <label for="pws">Password</label>
+            <input type="password" name="pws" id="pws"
+            placeholder="Enter your password"><br>\
+           
+            
+            <div class="wrap"><br>
+                <button type="button">Login</button>
+            </div>
+            
+            <P>Don't have an account?  <a href="https://www.youtube.com/watch?v=KunRVZ8tKuk" target="_blank" rel="noopener noreferrer">create account</a></P>
+        </form>
+    </div>
+    <script type="module" src="">
+        if (name="") {
+            
+        }
+    </script>
+</body>
+</html>
